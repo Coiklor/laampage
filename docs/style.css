@@ -580,9 +580,9 @@ section{
 
 
 /* Responsive */
-@media (min-width: 1199.98px)  {
+@media (min-width: 1200px)  {
     html{
-        font-size: 60%;
+        font-size: 70%;
     }
 }
 @media (max-width:991px){
