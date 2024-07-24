@@ -695,3 +695,29 @@ section{
 }
 
 }
+
+@media (max-width:250px){
+    html{
+        font-size: 30%;
+    }
+
+
+.home{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.home .content .h3 p{
+    font-size: 2px;
+}
+.home .content p {
+    font-size: 2rem;
+}
+
+}
