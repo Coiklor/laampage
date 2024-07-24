@@ -305,7 +305,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/IMG_0100.jpg), no-repeat;
+    background: url(Images/IMG_0100.jpg), no-repeat;
     background-size: 1320px 650px;
     background-size: contain, no-repeat;
     background-position: center;   
