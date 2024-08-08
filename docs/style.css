@@ -701,3 +701,12 @@ section{
     background-size: 380px 670px; 
 }
 }
+
+@media (max-width:270px){
+  
+
+    .home{
+        background: url(Images/IMG_0500smaller.jpg), no-repeat center center;
+        background-size: 270px 540px; 
+    }
+    }
