@@ -317,6 +317,8 @@ section{
     font-size: 6rem;
     text-transform: uppercase;
     color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.527);
+
 }
 
 .home .content p{
@@ -324,7 +326,8 @@ section{
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
-    color: #fff;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 
@@ -688,4 +691,13 @@ section{
     font-size: 2rem;
 }
 
+}
+
+@media (max-width:375px){
+  
+
+.home{
+    background: url(Images/IMG_0500smaller.jpg), no-repeat center center;
+    background-size: 380px 670px; 
+}
 }
