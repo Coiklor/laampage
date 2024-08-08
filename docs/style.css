@@ -305,10 +305,9 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(Images/IMG_0100.jpg), no-repeat;
+    background: url(Images/IMG_0100.jpg), no-repeat center center;
     background-size: 1320px 650px;
-    background-size: contain, no-repeat;
-    background-position: center;   
+    background-size: cover
 }
 
 .home .content{
@@ -677,40 +676,13 @@ section{
 
 
 .home{
+    background: url(Images/IMG_0400_smaller.jpg), no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
     min-height: 100vh;
     display: flex;
     align-items: center;
     padding: 2rem;
-}
-
-.home .content .h3 p{
-    font-size: 2px;
-}
-.home .content p {
-    font-size: 2rem;
-}
-
-}
-
-@media (max-width:250px){
-    html{
-        font-size: 30%;
-    }
-
-
-.home{
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 2rem;
+   
 }
 
 .home .content .h3 p{
